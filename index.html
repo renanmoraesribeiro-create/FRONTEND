@@ -56,10 +56,41 @@
       <section id="contato">
         <h2>contato</h2>
         <p>tem um projeto em mente? entre em contato</p>
-        <address>
-          email: <a href="mailto:lucas@lucas.com.br">lucas@lucas.com.br</a>
-          <br />
-          telefone: <a href="tel:999999">999999</a>
+        
+        <form action="">
+          <label for="Nome">Nome:</label>
+
+         <input type="text" id="nome" name="nome" required > <br>
+
+           <label for="Email">Email:</label>
+
+         <input type="email" id="email" name="email" required> <br>
+           <label for="Telefone">Telefone:</label>
+
+         <input type="tel" id="Telefone" name="Telefone"> <br>
+
+         <label for="assunto">Assunto:</label>
+         <select name="" id="">
+          <option value="orcamento">Orçamento:</option>
+          <option value="duvida">Dúvida:</option>
+          <option value="outros">Outros:</option>
+         </select>
+
+         <br>
+
+         <label for="mensagem ">Mensagem:</label>
+         <textarea name="mensagem" id="mensagem" cols="20" rows="5" required></textarea> <br>
+
+         <input type="checkbox" id="inscricao" nome="inscricao"/>
+         <label for="inscricao">deseja se inscrever?</label>
+         
+         <br>
+
+         <input type="submit" value="Eneviar mensagem"/>
+
+        
+
+        </form>
         </address>
       </section>
     </footer>
